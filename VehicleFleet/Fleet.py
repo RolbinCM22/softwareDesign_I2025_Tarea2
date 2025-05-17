@@ -3,7 +3,7 @@ class fleet:
         self.vehiculos = []
 
     def agregar_vehiculo(self, vehiculo):
-        if isinstance(vehiculo, Vehiculo):  # Verifica si el objeto es de tipo Vehiculo
+        if isinstance(vehiculo, Vehiculo):  
             self.vehiculos.append(vehiculo)
             print("Vehículo agregado!")
         else:
